@@ -1,0 +1,2 @@
+# MinBible
+Minimal Bible site
