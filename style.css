@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+#content {
+  margin-top: 20px;
+  padding: 10px;
+  overflow-y: auto;
+}
+#test {
+  position: absolute;
+  top: 200vh;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+nav{
+  background-color: aqua;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+}
+nav li{
+  height: 50px;
+}
+nav select{
+  height: 100%;
+}
